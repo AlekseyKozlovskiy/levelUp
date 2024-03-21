@@ -12,7 +12,7 @@ public class CountingNumbers {
         int count = 0;
 
         while ((i = fileInputStream.read()) != -1 ){
-            if (i > 47 || i < 58) {
+            if (i > 47 && i < 58) {
                 count++;
             }
         }
